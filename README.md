@@ -2,7 +2,7 @@
 
 ![Mon horloge](https://github.com/Yohber/Horloge/blob/master/clock.png) 
 Parce que l'horloge de l'ordinateur est un peu petite et pas trés esthétique, j'ai décidé de créer mon horloge, avec des couleurs que j'aime, avec la taille que j'aime,
-avec l'animation que j'aime, avec les chiffres que j'aime.... Bref j'ai créé une horloge qui me plait :red heart:
+avec l'animation que j'aime, avec les chiffres que j'aime.... Bref j'ai créé une horloge qui me plait &#x2764;&#xFE0F;
 
 ## Pour commencer
 
