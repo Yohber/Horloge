@@ -1,0 +1,82 @@
+body {
+   width: 100%;
+   height: 100%;
+}
+#myContainer{
+   width: 500px;
+   height: 250px;
+   background: linear-gradient(225deg, orange, purple);
+   border-radius: 20px;
+}
+#time {
+   position: relative ; 
+   top: 90%;
+   left: calc( 50% - 50px );
+   width: 100px;
+   height: 30px;
+}
+#fiche {
+   background-color: lightblue;
+   text-align: center;
+   position: absolute;
+   width: 60px;
+   height: 30px;
+   margin-left: 220px;
+   margin-top: 15px;
+}
+.rotate {
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes rotation{
+   from {
+      transform: rotateZ(0deg);
+   }
+   to {
+      transform: rotateZ(720deg);
+   }
+}
+.invisible {
+   animation-name: pluvisible;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+@keyframes pluvisible{
+   from {
+      opacity: 1;
+      transform: rotateZ(0deg);
+   }
+   to {
+      opacity: 0;
+      transform: rotateZ(720deg);
+   }
+}
+.rotate2 {
+  animation-name: rotation2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes rotation2{
+   from {
+      transform: rotateZ(90deg);
+   }
+   to {
+      transform: rotateZ(810deg);
+   }
+}
+.invisible2 {
+   animation-name: pluvisible2;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+@keyframes pluvisible2{
+   from {
+      opacity: 1;
+      transform: rotateZ(90deg);
+   }
+   to {
+      opacity: 0;
+      transform: rotateZ(810deg);
+   }
+}
